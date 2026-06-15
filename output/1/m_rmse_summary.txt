@@ -1,0 +1,47 @@
+OLS estimation, Dep. Var.: rmse
+Observations: 40,000
+Standard-errors: Clustered (replication) 
+                                         Estimate Std. Error   t value   Pr(>|t|)    
+(Intercept)                              0.064434   0.000204 315.98461  < 2.2e-16 ***
+scenariomiss0.1_cca_causal_forest       -0.000758   0.000287  -2.63761 8.4789e-03 ** 
+scenariomiss0.1_cca_s_learner_rf        -0.000961   0.000231  -4.16093 3.4424e-05 ***
+scenariomiss0.1_cca_t_learner_rf         0.076595   0.000363 210.97419  < 2.2e-16 ***
+scenariomiss0.1_cca_x_learner_rf         0.039439   0.000334 118.23791  < 2.2e-16 ***
+scenariomiss0.1_mean_mode_causal_forest -0.000784   0.000192  -4.07533 4.9594e-05 ***
+scenariomiss0.1_mean_mode_s_learner_rf   0.001562   0.000080  19.48285  < 2.2e-16 ***
+scenariomiss0.1_mean_mode_t_learner_rf   0.074333   0.000277 268.07713  < 2.2e-16 ***
+scenariomiss0.1_mean_mode_x_learner_rf   0.037316   0.000247 151.20871  < 2.2e-16 ***
+scenariomiss0.1_mice_causal_forest      -0.000970   0.000188  -5.16034 2.9729e-07 ***
+scenariomiss0.1_mice_s_learner_rf        0.001263   0.000073  17.28532  < 2.2e-16 ***
+scenariomiss0.1_mice_t_learner_rf        0.074693   0.000278 268.49525  < 2.2e-16 ***
+scenariomiss0.1_mice_x_learner_rf        0.037533   0.000244 153.51068  < 2.2e-16 ***
+scenariomiss0.5_cca_causal_forest        0.010181   0.000664  15.33647  < 2.2e-16 ***
+scenariomiss0.5_cca_s_learner_rf        -0.003632   0.000367  -9.90271  < 2.2e-16 ***
+scenariomiss0.5_cca_t_learner_rf         0.101427   0.000708 143.24132  < 2.2e-16 ***
+scenariomiss0.5_cca_x_learner_rf         0.062969   0.000664  94.86264  < 2.2e-16 ***
+scenariomiss0.5_mean_mode_causal_forest  0.002247   0.000204  11.03709  < 2.2e-16 ***
+scenariomiss0.5_mean_mode_s_learner_rf   0.007531   0.000158  47.58096  < 2.2e-16 ***
+scenariomiss0.5_mean_mode_t_learner_rf   0.082909   0.000303 273.87386  < 2.2e-16 ***
+scenariomiss0.5_mean_mode_x_learner_rf   0.045236   0.000275 164.21378  < 2.2e-16 ***
+scenariomiss0.5_mice_causal_forest       0.001785   0.000205   8.71180  < 2.2e-16 ***
+scenariomiss0.5_mice_s_learner_rf        0.005174   0.000134  38.51825  < 2.2e-16 ***
+scenariomiss0.5_mice_t_learner_rf        0.079863   0.000298 267.73968  < 2.2e-16 ***
+scenariomiss0.5_mice_x_learner_rf        0.043001   0.000276 155.96259  < 2.2e-16 ***
+scenariomiss0.7_cca_causal_forest        0.024408   0.001226  19.90093  < 2.2e-16 ***
+scenariomiss0.7_cca_s_learner_rf        -0.005571   0.000522 -10.68093  < 2.2e-16 ***
+scenariomiss0.7_cca_t_learner_rf         0.125913   0.001188 105.99618  < 2.2e-16 ***
+scenariomiss0.7_cca_x_learner_rf         0.085410   0.001104  77.36882  < 2.2e-16 ***
+scenariomiss0.7_mean_mode_causal_forest  0.003451   0.000210  16.42288  < 2.2e-16 ***
+scenariomiss0.7_mean_mode_s_learner_rf   0.011067   0.000201  55.08547  < 2.2e-16 ***
+scenariomiss0.7_mean_mode_t_learner_rf   0.088555   0.000310 285.43275  < 2.2e-16 ***
+scenariomiss0.7_mean_mode_x_learner_rf   0.049989   0.000285 175.17945  < 2.2e-16 ***
+scenariomiss0.7_mice_causal_forest       0.002695   0.000210  12.84277  < 2.2e-16 ***
+scenariomiss0.7_mice_s_learner_rf        0.006492   0.000147  44.07494  < 2.2e-16 ***
+scenariomiss0.7_mice_t_learner_rf        0.081719   0.000307 266.13124  < 2.2e-16 ***
+scenariomiss0.7_mice_x_learner_rf        0.044838   0.000279 160.54642  < 2.2e-16 ***
+scenarioperfect_causal_forest           -0.001833   0.000182 -10.05054  < 2.2e-16 ***
+scenarioperfect_t_learner_rf             0.073119   0.000272 268.53557  < 2.2e-16 ***
+scenarioperfect_x_learner_rf             0.035918   0.000240 149.50711  < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.014371   Adj. R2: 0.865635

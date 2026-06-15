@@ -1,0 +1,20 @@
+\begin{table}[!h]
+\centering
+\caption{Three-Way ANOVA Results for RMSE}
+\centering
+\begin{tabular}[t]{lrrrrr}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+missingness\_level & 3 & 1.657 & 0.552 & 2671.602 & 0\\
+imputation\_method & 2 & 0.890 & 0.445 & 2152.983 & 0\\
+estimator & 3 & 47.935 & 15.978 & 77287.053 & 0\\
+missingness\_level:imputation\_method & 4 & 0.611 & 0.153 & 738.613 & 0\\
+missingness\_level:estimator & 9 & 0.497 & 0.055 & 266.956 & 0\\
+\addlinespace
+imputation\_method:estimator & 6 & 1.145 & 0.191 & 923.119 & 0\\
+missingness\_level:imputation\_method:estimator & 12 & 0.548 & 0.046 & 220.903 & 0\\
+Residuals & 39960 & 8.261 & 0.000 & NA & NA\\
+\bottomrule
+\end{tabular}
+\end{table}
