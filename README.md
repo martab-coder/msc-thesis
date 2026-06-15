@@ -36,5 +36,3 @@ Rscript Results_analysis.R
 | `sim_1rep_graph.R` | Generates the Graphviz diagram illustrating the structure of a single simulation replication. |
 
 ```
-
-Parallelisation uses 14 cores by default (set `N_CORES` in `01_Setup.R`).
