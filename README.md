@@ -12,7 +12,7 @@ Simulation study examining how covariate missingness affects the accuracy, stabi
 Rscript MAIN_running_sim.R
 ```
 
-Results are saved to `simulation_results_final.rds`.
+Results are saved to `simulation_results_final.rds` HOWEVER, the dataset is too large to be stored in the git repo. 
 
 ### Results analysis & figures
 
